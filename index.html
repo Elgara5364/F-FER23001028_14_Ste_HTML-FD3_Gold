@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Forms</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="#">
+        <div>
+          <label for="mobil">mobil:</label>
+          <select id="mobil" name="mobil">
+            <option value="agya">agya</option>
+            <option value="ayla">ayla</option>
+            <option value="sigra">sigra</option>
+            <option value="calya">calya</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="firstname">first name :</label>
+
+          <input id="firstname" type="text" />
+        </div>
+        <div>
+          <label for="lastname">last name :</label>
+
+          <input id="lastname" type="text" />
+        </div>
+        <div>
+          <label for="">gender :</label>
+
+          <label for="male">male</label>
+          <input id="male" type="radio" />
+          <label for="female">female</label>
+          <input id="female" type="radio" />
+        </div>
+        <div>
+          <label for="email">email :</label>
+
+          <input id="email" type="email" />
+        </div>
+        <div>
+          date of birth :
+          <input type="date" />
+        </div>
+        <div>
+          <div>
+            <label for="pesan">address</label>
+          </div>
+          <textarea name="pesan" id="pesan" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          <button>submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
