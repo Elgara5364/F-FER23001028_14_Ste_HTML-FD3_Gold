@@ -3,13 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Forms</title>
+  <title>Form Example</title>
 </head>
 <body>
+
+
+    <!-- Form Rakha -->
+    <label for="" >Form Rakha</label>
+    <label for="" >Personal Details</label>
+    <form>
+        <label for="cars">Salutation</label>
+        <br>
+        <select name="cars" id="cars">
+            <option value="agya">Agya</option>
+            <option value="ayla">Ayla</option>
+            <option value="sigra">Sigra</option>
+            <option value="cayla">Cayla</option>
+        </select>
+        <br>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
   
-  <!-- AWAL FORM  -->
+
+  <!-- AWAL FORM Steve loardi  -->
   <fieldset>
-    <h1>Steve Loardi</h1>
     <legend>Beli Mobil</legend>
     <table>
       <tr>
@@ -59,3 +78,149 @@
 
 </body>
 </html>
+
+        <br>
+        <label for="gender">Gender : </label>
+        <br>
+        <input type="radio" id="gen_male" name="gender" value="M">
+        <label for="gen_male">Male</label><br>
+        <input type="radio" id="gen_female" name="gender" value="F">
+        <label for="gen_female">Female</label><br>
+  
+        <br>
+  
+        <label for="birthday">Date of Birth :</label>
+        <input type="date" id="birthday" name="birthday">
+        <br>
+  
+        <label for="address">Address : </label>
+        <br>
+        <textarea id="address" name="address" rows="4" cols="50"></textarea>
+        <br>
+        <button>Submit</button>
+      </form>
+      <!-- End of Form Rakha -->
+
+  <h1>Nurfaizzi Rasyid</h1>
+  <form method="post" action="">
+      <div id="form1">
+
+          <label >Salutation</label>
+          <select>
+          <option value="agya">agya</option>
+          <option value="ayla">ayla</option>
+          <option value="sigra">sigra</option>
+          <option value="luxio">cayla</option>
+          </select>
+          <br></br>
+     <label >First Name </label>
+     <input type="text"/> <br></br>
+     
+     <label >Last Name</label>
+     <input type="text" /> <br></br>
+     
+     <label >Gender</label> 
+     <input type="radio" name="sex" value="male">Male
+     <input type="radio" name="sex" value="male">Female <br></br>
+     
+     <label >Email</label>
+     <input type="email"> <br></br>
+     
+     <label>Date of Birth :</label>
+     <input type="date"> <br></br>
+     
+     <label> Address </label> <br></br>
+     <textarea name="" id="" cols="30" rows="10"></textarea> <br></br>
+     
+     <input type="submit" id="button" >
+      </div>
+      
+  </form>
+
+  <form>
+    <label for="">Salutation</label>
+    <select name="cars" id="cars">
+        <option>none</option>
+        <option value="agya">agya</option>
+        <option value="ayla">ayla</option>
+        <option value="sigra">sigra</option>
+        <option value="cayla">cayla</option>
+    </select><br><br>
+    <label for="fname">First name:</label>
+    <input type="text" name="name"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" name="name"><br><br>
+
+    <label for="gender">Gender:</label>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">Male</label>
+    <input type="radio" name="sex" id="female" value="female">
+    <label for="female">Female</label> <br><br>
+
+    <label for="Email">Email:</label>
+    <input type="email" name="email"><br><br>
+
+    <label for="Date of birth">Date of birth:</label>
+    <input type="date" name="birthdate" id="birthdate"><br><br>
+
+    <label for="Address">Address:</label><br>
+    <textarea name="Address" id="" cols="30" rows="3"></textarea><br>
+
+    <button>sumbit</button>
+</form>
+
+<!-- form sandi -->
+    <div class="container">
+      <form action="#">
+        <div>
+          <label for="mobil">mobil:</label>
+          <select id="mobil" name="mobil">
+            <option value="agya">agya</option>
+            <option value="ayla">ayla</option>
+            <option value="sigra">sigra</option>
+            <option value="calya">calya</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="firstname">first name :</label>
+
+          <input id="firstname" type="text" />
+        </div>
+        <div>
+          <label for="lastname">last name :</label>
+
+          <input id="lastname" type="text" />
+        </div>
+        <div>
+          <label for="">gender :</label>
+
+          <label for="male">male</label>
+          <input id="male" type="radio" />
+          <label for="female">female</label>
+          <input id="female" type="radio" />
+        </div>
+        <div>
+          <label for="email">email :</label>
+
+          <input id="email" type="email" />
+        </div>
+        <div>
+          date of birth :
+          <input type="date" />
+        </div>
+        <div>
+          <div>
+            <label for="pesan">address</label>
+          </div>
+          <textarea name="pesan" id="pesan" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          <button>submit</button>
+        </div>
+      </form>
+    </div>
+    <!-- end form sandi -->
+  </body>
+</html>
+
